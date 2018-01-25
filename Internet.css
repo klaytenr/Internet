@@ -3,33 +3,125 @@
     padding: 0;
 }
 #master{
-    background-color: darkblue;
     border: 2px solid black;
     width: 970px;
     margin: 0 auto;
 }
-#header{
-    background-color: green;
+#grey{
+    display: inline-block;
+    font-size: 55px;
+    position: relative;
+    bottom: 37px;
 }
-.img{
-    max-width: 30px;
-    max-height: 30px;
+.blue{
+    color: #2c6ba1;
 }
-#body{
-    background-color: orange;
+#title{
+    background: linear-gradient(#2a69a1, #5283ac, #27659f);
+    height: 50px;
+    padding-top: 10px;
+    position: relative;
+    bottom: 35px;
+    font-size: 35px;
+    color: white;
+    z-index: -1;
+    padding-left: 20px; 
 }
 #bodyLeft{
-    background-color: purple;
+    display: inline-block;
+    max-width: 22%;
+    height: 600px;
+    vertical-align: top;
+    margin-right: 30px;
+}
+#red{
+    color: red;
+}
+#internet{
+    font-size: 20px;
+    position: relative;
+    bottom: 15px;
+    left: 5px;
+}
+#network{
+    font-size: 16px;
+    position: relative;
+    left: 5px;
+    bottom: 10px;
+}
+#makeVideo{
+    background-color: #417db0;
+    font-size: 20px;
+    padding: 5px 23px; 
+    border-radius: 7px;
+    margin-left: 7px;
+    color: white;
+    margin-bottom: 3px;    
+    font-weight: 300;
+}
+#resources{
+    background-color: #ed8c15;
+    font-size: 20px;
+    padding: 5px 12px; 
+    border-radius: 7px;
+    margin-left: 7px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+hr{
+    margin-bottom: 20px;
+}
+#ad{
+    background-image: url("ad_background.png");
+    height: 315px;
+}
+.white{
+    color: white;
+    font-size: 27px;
+    text-align: center;
+    padding-top: 16px; 
 }
 #bodyRight{
-    background-color: red;
+    display: inline-block;
+    max-width: 74%;
 }
 #bodyTop{
-    background-color: black;
+    display: inline-block;
+    width: 80%;
 }
 #bodyMain{
-    background-color: chartreuse;
+    display: inline-block;
 }
 #bodyFooter{
-    background-color: teal;
+    display: inline-block;
+}
+#globe{
+    max-width: 110px;
+    display: inline-block;
+}
+#ninja{
+    max-width: 90px;
+    padding-left: 60px;
+}
+#home{
+    max-width: 30px;
+}
+#phone{
+    max-width: 30px;
+}
+#clientServer{
+    max-width: 30px;
+}
+#circles{
+    max-width: 30px;
+}
+#learn{
+    background: linear-gradient(#79d0e0, #42c0df);
+    font-size: 20px;
+    padding: 5px 18px; 
+    border-radius: 7px;
+    color: white;
+    margin: 10px 0 20px 20px;
+    font-weight: 300;
 }
