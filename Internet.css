@@ -5,7 +5,9 @@
 #master{
     border: 2px solid black;
     width: 970px;
+    height: 839px;
     margin: 0 auto;
+    font-family: Arial;
 }
 #grey{
     display: inline-block;
@@ -69,7 +71,7 @@
     margin-bottom: 20px;
     font-weight: 300;
 }
-hr{
+#hr1{
     margin-bottom: 20px;
 }
 #ad{
@@ -105,16 +107,28 @@ hr{
     padding-left: 60px;
 }
 #home{
-    max-width: 30px;
+    max-width: 22px;
+    display: inline-block;
+    position: relative;
+    bottom: 50px;
+}
+#dns{
+    color: #2c6ba1;
+    display: inline-block;
+    position: relative;
+    bottom: 52px;
+    font-size: 18px;
 }
 #phone{
-    max-width: 30px;
+    max-width: 50px;
+    position: relative;
+    left: 410px;
+    bottom: 30px;
 }
 #clientServer{
-    max-width: 30px;
-}
-#circles{
-    max-width: 30px;
+    height: 100px;
+    position: relative;
+    left: 200px;
 }
 #learn{
     background: linear-gradient(#79d0e0, #42c0df);
@@ -124,4 +138,88 @@ hr{
     color: white;
     margin: 10px 0 20px 20px;
     font-weight: 300;
+}
+#bodyTopRight{
+    display: inline-block;
+    position: relative;
+    left: 420px;
+    bottom: 33px;
+    text-align: right;
+}
+#times{
+    font-size: 12px;
+    color: darkgray;
+}
+#number{
+    color: aqua;
+    font-size: 28px;
+}
+#number2{
+    font-size: 12px;
+    color: darkgray;
+}
+#hr2{
+    position: relative;
+    bottom: 20px;
+}
+#cs{
+    font-size: 23px;
+    font-weight: 300;
+    position: relative;
+    bottom: 15px;
+    left: 3px;
+}
+
+#computers{
+    position: relative;
+    bottom: 12px;
+}
+.lightBlue{
+    color: #349ab2;
+}
+ul{
+    position: relative;
+    bottom: 5px;
+    left: 46px;
+    max-width: 663px;
+}
+#big3{
+    font-size: 23px;
+    font-weight: 300;
+}
+#whatNow{
+    font-size: 23px;
+    font-weight: 300;
+    position: relative;
+    left: 3px;
+    top: 10px;
+}
+ol{
+    position: relative;
+    left: 45px;
+    top: 15px;
+    max-width: 663px;
+}
+#circles{
+    display: inline-block;
+    width: 100px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+#footerRight{
+    display: inline-block;
+    max-width: 540px;
+    margin-left: 15px;
+    position: relative;
+    top: 10px;
+    left: 5px;
+}
+#bodyFooter{
+    position: relative;
+    top: 31px;
+    left: 10px;
+    border: 5px solid blue;
+    border-bottom-style: none;
+    height: 110px;
 }
