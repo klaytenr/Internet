@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#master{
+    background-color: darkblue;
+    border: 2px solid black;
+    width: 970px;
+    margin: 0 auto;
+}
+#header{
+    background-color: green;
+}
+.img{
+    max-width: 30px;
+    max-height: 30px;
+}
+#body{
+    background-color: orange;
+}
+#bodyLeft{
+    background-color: purple;
+}
+#bodyRight{
+    background-color: red;
+}
+#bodyTop{
+    background-color: black;
+}
+#bodyMain{
+    background-color: chartreuse;
+}
+#bodyFooter{
+    background-color: teal;
+}
